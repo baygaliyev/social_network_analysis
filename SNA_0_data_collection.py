@@ -56,7 +56,7 @@ df = pd.DataFrame(full_cols)
 # this code writes df to csv
 
 # df.to_csv('sna_data_fullest.csv',  encoding='utf-8')
-
+ 
 # the code below helps to append new raws to the existing file
 
 with open('sna_data_fullest.csv', 'a') as fd:
